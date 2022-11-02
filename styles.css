@@ -2,8 +2,9 @@
     background-color: green;
   } */
   h1 {
+    font-family: sans-serif;
     color: blue;
   }
-  h2 {
+  p {
     color: skyblue;
   }
