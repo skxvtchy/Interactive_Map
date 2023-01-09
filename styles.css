@@ -1,10 +1,16 @@
-/* body {
-    background-color: green;
-  } */
+
   h1 {
     font-family: sans-serif;
     color: blue;
   }
   p {
     color: skyblue;
+  }
+  #map {
+    height: 100%;
+    width: 100%;
+   }
+  body {
+    margin: 0%;
+    width: 100%;
   }
