@@ -13,8 +13,17 @@
   body {
     margin: 0%;
     width: 100%;
-    background-image: url('map.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
-    background-size: cover;
+    
+  }
+  html{ 
+    background-color:rgb(0, 96, 221);
+    overflow: hidden;
+  }
+  
+  
+  .div1{
+    position:absolute; 
+    height:500px; 
+    width: 500px; 
+    z-index:1;
   }

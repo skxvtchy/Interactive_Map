@@ -7,6 +7,36 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
+<script>
+let _startX = 0,
+    _startY = 0,
+    _scrollTop = 0,
+    _scrollLeft = 0;
+
+document.onmousedown = OnMouseDown;
+document.onmouseup = OnMouseUp;
+
+function OnMouseDown(event) {
+    document.onmousemove = OnMouseMove;
+    _startX = event.clientX;
+    _startY = event.clientY;
+    _scrollTop = document.documentElement.scrollTop;
+    _scrollLeft = document.documentElement.scrollLeft;
+}
+
+function OnMouseMove(event) {
+    window.scrollTo({
+        left: _scrollLeft + (_startX - event.clientX),
+        top: _scrollTop + (_startY - event.clientY)
+    });
+}
+
+function OnMouseUp() {
+    document.onmousemove = null;
+}
+</script>
+
 <body>
     <center>
    <h1>University at Buffalo</h1>
@@ -16,6 +46,22 @@
 </div> -->
 <a href="https://www.buffalo.edu/" >More information</a>
 </center>
-    
+
+<!-- <div class="div1" id="div1">
+    <div style="position:absolute;top:75px;left:100px;height:50px;width:50px;background-color:blue;"><img src="map.jpg" style="height: 179rem;"/></div>
+      
+  </div> -->
+  <div id="wrapper">
+    <div id="dragable_content">
+      <img draggable='false' src="map.jpg" style="height: 179rem" style="height:100rem;" />
+    </div>
+  </div>  
+
+  <!-- <div class="div1" id="div1">
+
+    <div style="height:50px;width:50px;background-color:red;"></div>
+    <div style="position:absolute;top:75px;left:100px;height:50px;width:50px;background-color:blue;"></div>
+
+  </div> -->
 </body>
 </html>
