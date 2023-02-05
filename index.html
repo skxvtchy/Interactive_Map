@@ -43,16 +43,30 @@ function zoomin(){
          else{
             myImg.style.width = (currWidth + 250) + "px";
         } 
+        var mypin = document.getElementById("pin1");
+        var currWidth = mypin.clientWidth;
+        if(currWidth == 25000) return false;
+         else{
+            mypin.style.width = (currWidth + 250) + "px";
+        } 
     }
     function zoomout(){
         var myImg = document.getElementById("map1");
         var currWidth = myImg.clientWidth;
-        if(currWidth == 100) return false;
+        if(currWidth == 1000) return false;
 		 else{
             myImg.style.width = (currWidth - 250) + "px";
             // myImg.style.height = auto;
         }
+        var mypin = document.getElementById("pin1");
+        var currWidth = mypin.clientWidth;
+        if(currWidth == 1000) return false;
+         else{
+            mypin.style.width = (currWidth - 250) + "px";
+        } 
     }
+
+
 </script>
 
 <body>
@@ -82,7 +96,7 @@ function zoomin(){
         <img id="map1" draggable='false' src="map.jpg" style="height: auto; width: 150rem;"/>
     </div>
     <div class="pins">
-        <img draggable='false' src="Pins/Pin - Copy.png" style="left:1000px; top:200px;" />
+        <img id = "pin1" draggable='false' src="Pins/Pin - Copy.png" style="left:1000px; top:200px;" />
     </div>
 </div>
 
