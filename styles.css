@@ -10,7 +10,7 @@
   }
   #map {
     padding-top: 60px;
-    height: auto;
+    height: 100%;
     width: 100%;
     z-index: -2;
     position: absolute;
