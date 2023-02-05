@@ -26,8 +26,9 @@
   }
   .pins{
     z-index:-1;
-    height: 10rem; 
-    position:absolute;
+    height: 4rem; 
+    width: auto;
+    position: absolute;
     transition: transform .2s;
   }
   .pins:hover {
@@ -42,6 +43,7 @@
     overflow: hidden;
     position: fixed;
     width: 100%;
+    z-index: 1;
   }
 
   /* Style the links inside the navigation bar */
@@ -60,6 +62,13 @@
       padding: 14px 16px;
       text-decoration: none;
       font-size: 17px;
+    }
+  .zoomer {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      text-decoration: none;
+      font-size: 20px;
     }
 
   /* Change the color of links on hover */

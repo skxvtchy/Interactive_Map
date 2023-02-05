@@ -65,7 +65,13 @@ function zoomin(){
             mypin.style.width = (currWidth - 250) + "px";
         } 
     }
+    function openNav() {
+  document.getElementById("mySidepanel").style.width = "32%";
+}
 
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
 
 </script>
 
@@ -78,8 +84,10 @@ function zoomin(){
             <a href="#contact">Contact</a>
             <a href="#about">About</a>
             <a class="active" href="#home">Home</a>
-                <button type="button" onclick="zoomin()" style="left:1000; top: 200px;"> Zoom In</button>
-                <button type="button" onclick="zoomout()" style="left:1000; top: 200px;"> Zoom Out</button>
+            <div class="zoomer">
+            <a onclick="zoomin()" href="#anti-high">Zoom In</a>
+            <a onclick="zoomout()" href="#anti-high">Zoom Out</a>
+            </div>
         </div>
     <!--<p>James Li & Alexandar Terry</p>
      <div class="map">
