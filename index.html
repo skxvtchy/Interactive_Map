@@ -37,21 +37,20 @@ function OnMouseUp() {
 }
 
 function zoomin(){
-        var myImg = document.getElementById("map");
+        var myImg = document.getElementById("map1");
         var currWidth = myImg.clientWidth;
-        if(currWidth == 2500) return false;
+        if(currWidth == 25000) return false;
          else{
-            myImg.style.width = (currWidth + 100) + "px";
-            myImg.style.height = auto;
+            myImg.style.width = (currWidth + 250) + "px";
         } 
     }
     function zoomout(){
-        var myImg = document.getElementById("map");
+        var myImg = document.getElementById("map1");
         var currWidth = myImg.clientWidth;
         if(currWidth == 100) return false;
 		 else{
-            myImg.style.width = (currWidth - 100) + "px";
-            myImg.style.height = auto;
+            myImg.style.width = (currWidth - 250) + "px";
+            // myImg.style.height = auto;
         }
     }
 </script>
@@ -80,7 +79,7 @@ function zoomin(){
   
 <div id="dragable_content">
     <div id="map">
-        <img id="map" draggable='false' src="map.jpg" style="height: auto; width: 150rem;"/>
+        <img id="map1" draggable='false' src="map.jpg" style="height: auto; width: 150rem;"/>
     </div>
     <div class="pins">
         <img draggable='false' src="Pins/Pin - Copy.png" style="left:1000px; top:200px;" />
