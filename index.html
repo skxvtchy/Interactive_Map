@@ -35,6 +35,25 @@ function OnMouseMove(event) {
 function OnMouseUp() {
     document.onmousemove = null;
 }
+
+function zoomin(){
+        var myImg = document.getElementById("map");
+        var currWidth = myImg.clientWidth;
+        if(currWidth == 2500) return false;
+         else{
+            myImg.style.width = (currWidth + 100) + "px";
+            myImg.style.height = auto;
+        } 
+    }
+    function zoomout(){
+        var myImg = document.getElementById("map");
+        var currWidth = myImg.clientWidth;
+        if(currWidth == 100) return false;
+		 else{
+            myImg.style.width = (currWidth - 100) + "px";
+            myImg.style.height = auto;
+        }
+    }
 </script>
 
 <body>
@@ -46,6 +65,8 @@ function OnMouseUp() {
             <a href="#contact">Contact</a>
             <a href="#about">About</a>
             <a class="active" href="#home">Home</a>
+                <button type="button" onclick="zoomin()" style="left:1000; top: 200px;"> Zoom In</button>
+                <button type="button" onclick="zoomout()" style="left:1000; top: 200px;"> Zoom Out</button>
         </div>
     <!--<p>James Li & Alexandar Terry</p>
      <div class="map">
@@ -59,12 +80,13 @@ function OnMouseUp() {
   
 <div id="dragable_content">
     <div id="map">
-        <img draggable='false' src="map.jpg" style="height: 100rem"/>
+        <img id="map" draggable='false' src="map.jpg" style="height: 100rem"/>
     </div>
     <div class="pins">
-        <img draggable='false' src="Pins/Pin - Copy.png" style="height: 10rem" />
+        <img draggable='false' src="Pins/Pin - Copy.png" style="left:1000px; top:200px;" />
     </div>
 </div>
+
     <!-- <div class ="pins">
     <img src="Pin.png" alt="pins">
     </div> -->

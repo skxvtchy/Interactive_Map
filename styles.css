@@ -10,7 +10,7 @@
   }
   #map {
     padding-top: 60px;
-    height: 100%;
+    height: auto;
     width: 100%;
     z-index: -2;
     position: absolute;
@@ -27,8 +27,8 @@
   }
   .pins{
     z-index:-1;
-    height: auto;
-    width: 10px ;
+    height: 10rem; 
+    position:absolute;
     transition: transform .2s;
   }
   .pins:hover {
