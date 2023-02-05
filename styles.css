@@ -14,7 +14,8 @@
     width: 100%;
     z-index: -2;
     position: absolute;
-   }
+  }
+
   body {
     margin: 0%;
     width: 100%;
@@ -26,10 +27,17 @@
   }
   .pins{
     z-index:-1;
-    height: autp;
-    width: 50px ;
-    background-size: 100% 100%;
+    height: auto;
+    width: 10px ;
+    transition: transform .2s;
   }
+  .pins:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
+  }
+
+
   .topnav {
     background-color:rgb(0, 89, 255);
     overflow: hidden;
