@@ -61,3 +61,5 @@ function zoomin(){
 function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
 }
+
+//scripts
