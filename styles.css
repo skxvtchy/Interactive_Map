@@ -121,6 +121,15 @@
     transition: 0.3s;
   }
 
+  .sidebar p{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
   .sidebar1 {
     height: 100%;
     width: 0;
@@ -155,7 +164,7 @@
     margin-left: 50px;
   }
   
-  .sidebar h{
+  .sidebar1 h{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -164,7 +173,7 @@
     transition: 0.3s;
   }
 
-  .sidebar p{
+  .sidebar1 p{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 15px;
@@ -217,6 +226,15 @@
     transition: 0.3s;
   }
 
+  .sidebar2 p{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
   .sidebar3 {
     height: 100%;
     width: 0;
@@ -255,6 +273,14 @@
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidebar3 p{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -298,6 +324,15 @@
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidebar4 p{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
     color: #818181;
     display: block;
     transition: 0.3s;
