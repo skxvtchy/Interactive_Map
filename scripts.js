@@ -55,7 +55,7 @@ function zoomout(){
         } 
     }
 function openNav() {
-  document.getElementById("mySidepanel").style.width = "32%";
+  document.getElementById("mySidepanel").style.width = "35%";
 }
 
 function closeNav() {
@@ -103,120 +103,120 @@ function closeNav4() {
 }
 
 function openNav5() {
-    document.getElementById("mySidebar4").style.width = "35%";
+    document.getElementById("mySidebar5").style.width = "35%";
 }
   
 function closeNav5() {
-    document.getElementById("mySidebar4").style.width = "0";
+    document.getElementById("mySidebar5").style.width = "0";
 }
 function openNav6() {
-    document.getElementById("mySidebar4").style.width = "35%";
+    document.getElementById("mySidebar6").style.width = "35%";
 }
   
 function closeNav6() {
-    document.getElementById("mySidebar4").style.width = "0";
+    document.getElementById("mySidebar6").style.width = "0";
 }
 function openNav7() {
-    document.getElementById("mySidebar4").style.width = "35%";
+    document.getElementById("mySidebar7").style.width = "35%";
 }
   
 function closeNav7() {
  
-    document.getElementById("mySidebar4").style.width = "0";
+    document.getElementById("mySidebar7").style.width = "0";
 }
 function openNav8() {
-    document.getElementById("mySidebar4").style.width = "35%";
+    document.getElementById("mySidebar8").style.width = "35%";
 }
   
 function closeNav8() {
-    document.getElementById("mySidebar4").style.width = "0";
+    document.getElementById("mySidebar8").style.width = "0";
 }
 function openNav9() {
-    document.getElementById("mySidebar4").style.width = "35%";
+    document.getElementById("mySidebar9").style.width = "35%";
 }
   
 function closeNav9() {
-    document.getElementById("mySidebar4").style.width = "0";
+    document.getElementById("mySidebar9").style.width = "0";
 }
 function openNav10() {
-    document.getElementById("mySidebar4").style.width = "35%";
+    document.getElementById("mySidebar10").style.width = "35%";
 }
   
 function closeNav10() {
-    document.getElementById("mySidebar4").style.width = "0";
+    document.getElementById("mySidebar10").style.width = "0";
 }
 function openNav11() {
-    document.getElementById("mySidebar4").style.width = "35%";
+    document.getElementById("mySidebar11").style.width = "35%";
 }
   
 function closeNav11() {
-    document.getElementById("mySidebar4").style.width = "0";
+    document.getElementById("mySidebar11").style.width = "0";
 }
 
 function openNav12() {
-    document.getElementById("mySidebar4").style.width = "35%";
+    document.getElementById("mySidebar12").style.width = "35%";
 }
   
 function closeNav12() {
-    document.getElementById("mySidebar4").style.width = "0";
+    document.getElementById("mySidebar12").style.width = "0";
 }
 
 function openNav13() {
-    document.getElementById("mySidebar4").style.width = "35%";
+    document.getElementById("mySidebar13").style.width = "35%";
 }
   
 function closeNav13() {
-    document.getElementById("mySidebar4").style.width = "0";
+    document.getElementById("mySidebar13").style.width = "0";
 }
 function openNav14() {
-    document.getElementById("mySidebar4").style.width = "35%";
+    document.getElementById("mySidebar14").style.width = "35%";
 }
   
 function closeNav14() {
-    document.getElementById("mySidebar4").style.width = "0";
+    document.getElementById("mySidebar14").style.width = "0";
 }
 function openNav15() {
-    document.getElementById("mySidebar4").style.width = "35%";
+    document.getElementById("mySidebar15").style.width = "35%";
 }
   
 function closeNav15() {
-    document.getElementById("mySidebar4").style.width = "0";
+    document.getElementById("mySidebar15").style.width = "0";
 }
 
 function openNav16() {
-    document.getElementById("mySidebar4").style.width = "35%";
+    document.getElementById("mySidebar16").style.width = "35%";
 }
   
 function closeNav16() {
-    document.getElementById("mySidebar4").style.width = "0";
+    document.getElementById("mySidebar16").style.width = "0";
 }
 function openNav17() {
-    document.getElementById("mySidebar4").style.width = "35%";
+    document.getElementById("mySidebar17").style.width = "35%";
 }
   
 function closeNav17() {
-    document.getElementById("mySidebar4").style.width = "0";
+    document.getElementById("mySidebar17").style.width = "0";
 }
 function openNav18() {
-    document.getElementById("mySidebar4").style.width = "35%";
+    document.getElementById("mySidebar18").style.width = "35%";
 }
   
 function closeNav18() {
-    document.getElementById("mySidebar4").style.width = "0";
+    document.getElementById("mySidebar18").style.width = "0";
 }
 function openNav19() {
-    document.getElementById("mySidebar4").style.width = "35%";
+    document.getElementById("mySidebar19").style.width = "35%";
 }
   
 function closeNav19() {
-    document.getElementById("mySidebar4").style.width = "0";
+    document.getElementById("mySidebar19").style.width = "0";
 }
 function openNav20() {
-    document.getElementById("mySidebar4").style.width = "35%";
+    document.getElementById("mySidebar20").style.width = "35%";
 }
   
 function closeNav20() {
-    document.getElementById("mySidebar4").style.width = "0";
+    document.getElementById("mySidebar20").style.width = "0";
 }
 // function openNav5() {
 //     document.getElementById("mySidebar5").style.width = "35%";
