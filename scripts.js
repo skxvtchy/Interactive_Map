@@ -102,6 +102,122 @@ function closeNav4() {
     document.getElementById("mySidebar4").style.width = "0";
 }
 
+function openNav5() {
+    document.getElementById("mySidebar4").style.width = "35%";
+}
+  
+function closeNav5() {
+    document.getElementById("mySidebar4").style.width = "0";
+}
+function openNav6() {
+    document.getElementById("mySidebar4").style.width = "35%";
+}
+  
+function closeNav6() {
+    document.getElementById("mySidebar4").style.width = "0";
+}
+function openNav7() {
+    document.getElementById("mySidebar4").style.width = "35%";
+}
+  
+function closeNav7() {
+ 
+    document.getElementById("mySidebar4").style.width = "0";
+}
+function openNav8() {
+    document.getElementById("mySidebar4").style.width = "35%";
+}
+  
+function closeNav8() {
+    document.getElementById("mySidebar4").style.width = "0";
+}
+function openNav9() {
+    document.getElementById("mySidebar4").style.width = "35%";
+}
+  
+function closeNav9() {
+    document.getElementById("mySidebar4").style.width = "0";
+}
+function openNav10() {
+    document.getElementById("mySidebar4").style.width = "35%";
+}
+  
+function closeNav10() {
+    document.getElementById("mySidebar4").style.width = "0";
+}
+function openNav11() {
+    document.getElementById("mySidebar4").style.width = "35%";
+}
+  
+function closeNav11() {
+    document.getElementById("mySidebar4").style.width = "0";
+}
+
+function openNav12() {
+    document.getElementById("mySidebar4").style.width = "35%";
+}
+  
+function closeNav12() {
+    document.getElementById("mySidebar4").style.width = "0";
+}
+
+function openNav13() {
+    document.getElementById("mySidebar4").style.width = "35%";
+}
+  
+function closeNav13() {
+    document.getElementById("mySidebar4").style.width = "0";
+}
+function openNav14() {
+    document.getElementById("mySidebar4").style.width = "35%";
+}
+  
+function closeNav14() {
+    document.getElementById("mySidebar4").style.width = "0";
+}
+function openNav15() {
+    document.getElementById("mySidebar4").style.width = "35%";
+}
+  
+function closeNav15() {
+    document.getElementById("mySidebar4").style.width = "0";
+}
+
+function openNav16() {
+    document.getElementById("mySidebar4").style.width = "35%";
+}
+  
+function closeNav16() {
+    document.getElementById("mySidebar4").style.width = "0";
+}
+function openNav17() {
+    document.getElementById("mySidebar4").style.width = "35%";
+}
+  
+function closeNav17() {
+    document.getElementById("mySidebar4").style.width = "0";
+}
+function openNav18() {
+    document.getElementById("mySidebar4").style.width = "35%";
+}
+  
+function closeNav18() {
+    document.getElementById("mySidebar4").style.width = "0";
+}
+function openNav19() {
+    document.getElementById("mySidebar4").style.width = "35%";
+}
+  
+function closeNav19() {
+    document.getElementById("mySidebar4").style.width = "0";
+}
+function openNav20() {
+    document.getElementById("mySidebar4").style.width = "35%";
+}
+  
+function closeNav20() {
+    document.getElementById("mySidebar4").style.width = "0";
+}
 // function openNav5() {
 //     document.getElementById("mySidebar5").style.width = "35%";
 // }
@@ -109,7 +225,5 @@ function closeNav4() {
 // function closeNav5() {
 //     document.getElementById("mySidebar5").style.width = "0";
 // }
-
-
 
 //scripts
